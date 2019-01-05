@@ -7,7 +7,7 @@ def fizzbuzz(int)
     "Fizz"
   elsif int % 5 == 0 
   "Buzz"
-elsif int % 15 == 15
+elsif int % 15 == 1
 "FizzBuzz"
 else int % 4 == 4
   puts "nil"
