@@ -9,6 +9,6 @@ def fizzbuzz(int)
   "Buzz"
 elsif int % 15 == 0
 "FizzBuzz"
-else int % 4 == 0 
+else int % 4 == 4
 end
 end
