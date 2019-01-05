@@ -5,9 +5,10 @@
 def fizzbuzz(int)
   if int % 3 == 0 
     "Fizz"
-  elsif fizzbuzz(3) == "Fizz"
-elsif fizzbuzz(5) == "Buzz"
-elsif fizzbuzz(15) == "Fizzbuzz"
+  elsif int % 5 == 5 
+  "Buzz"
+elsif int % 15 == 15 
+"fizzbuzz"
 else fizzbuzz(4) 
 end
 end
